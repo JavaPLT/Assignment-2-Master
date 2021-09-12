@@ -15,7 +15,7 @@
 #|
  (define (f ... abtm ...)
    (cond [(empty? abtm) ...]
-         [(BTMNode
+         [(BTMNode? abtm)
                ... (BTMNode-key abtm)
                ... (BTMNode-value abtm)
                ... (f ... (BTMNode-left abtm) ...) 
